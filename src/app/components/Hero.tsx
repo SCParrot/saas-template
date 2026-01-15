@@ -47,6 +47,8 @@ export default function Hero() {
                 width={1000}
                 className="mx-auto rounded-2xl object-cover h-full object-left-top"
                 draggable={false}
+                loading="lazy"
+                placeholder="blur"
               />
             </ContainerScroll>
           </div>

@@ -158,7 +158,7 @@ const SkeletonThree = () => {
     },
   };
   return (
-    <Image alt="Smart" width={1000} height={60} src={dj} className="w-full h-auto object-cover"/>
+    <Image alt="Smart" width={1000} height={60} src={dj} className="w-full h-auto object-cover" loading="lazy" placeholder="blur"/>
   );
 };
 const SkeletonFour = () => {
@@ -292,7 +292,7 @@ const SkeletonFive = () => {
       </motion.div>
       <motion.div
         variants={variantsSecond}
-        className="flex flex-row rounded-full border border-blue-400/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-autobg-black"
+        className="flex flex-row rounded-full border border-blue-400/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-black"
       >
         <p className="text-xs text-blue-400">Start Building Now</p>
         <div className="h-6 w-6 rounded-full bg-gradient-to-br from-blue-300 to-blue-500 flex-shrink-0" />
