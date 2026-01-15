@@ -158,7 +158,7 @@ const SkeletonThree = () => {
     },
   };
   return (
-    <Image alt="Smart" width={2000} height={120} src={dj}/>
+    <Image alt="Smart" width={1000} height={60} src={dj} className="w-full h-auto object-cover"/>
   );
 };
 const SkeletonFour = () => {
