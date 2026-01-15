@@ -109,22 +109,22 @@ export default function Footer() {
             </h4>
             <div className="space-y-4">
               <a 
-                href="mailto:support@bot-sensei.com" 
+                href="mailto:xxx@xxxxx"
                 className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
               >
                 <div className="p-2 rounded-md bg-blue-500/10 group-hover:bg-blue-500/20 transition-colors duration-300">
                   <Mail className="w-4 h-4" />
                 </div>
-                support@bot-sensei.com
+                xxx@xxxxx
               </a>
               <a 
-                href="tel:+919876543210" 
+                href="tel:+xx xxxxx xxxxx"
                 className="flex items-center gap-3 text-blue-200/80 hover:text-white group transition-colors duration-300"
               >
                 <div className="p-2 rounded-md bg-blue-500/10 group-hover:bg-blue-500/20 transition-colors duration-300">
                   <Phone className="w-4 h-4" />
                 </div>
-                +91 98765 43210
+                +xx xxxxx xxxxx
               </a>
             </div>
           </div>
